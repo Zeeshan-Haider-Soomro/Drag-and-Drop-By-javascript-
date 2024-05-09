@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #290991
+}
+#left,#right{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px dashed #fff;
+}
+.list{
+    background: #a4920d;
+    height: 60px;
+    margin: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    cursor: grab;
+}
+.list i{
+    width: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+
+}

@@ -1,3 +1,8 @@
+
+let date = new Date()
+let yearChanger = document.querySelector("#yearChanger")
+yearChanger.innerText = `${date.getFullYear()}`
+
 let lists = document.getElementsByClassName("list")
 let leftBox = document.getElementById("left")
 let rightBox = document.getElementById("right")
@@ -20,3 +25,4 @@ for(list of lists){
         })
     })
 }
+
